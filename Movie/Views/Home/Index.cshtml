@@ -22,7 +22,8 @@
 <div>
     @(await Html.PartialAsync("Navbar"))
     @(await Component.InvokeAsync("Carousel"))
-    @(await Html.PartialAsync("TrainingPool"))
+    @*@(await Html.PartialAsync("TrainingPool"))*@
+    @(await Component.InvokeAsync("Slider"))
     @*<script>
         document.getElementById("hideAll").style.display = "block";
         window.onload = function() { document.getElementById("hideAll").style.backgroundColor = "blue" }
