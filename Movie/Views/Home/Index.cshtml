@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    @*<style>
+        #hideAll {
+            display: inline-block; 
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: red;
+            z-index: 999;
+        }
+    </style>*@
+   
+    <link href="~/css/Index.css" rel="stylesheet"/>
+    <title>Home</title>
+</head>
+<body>
+@*<div style="display: none" id="hideAll" >*@
+<div>
+    @(await Html.PartialAsync("Navbar"))
+    @(await Component.InvokeAsync("Carousel"))
+    @(await Html.PartialAsync("TrainingPool"))
+    @*<script>
+        document.getElementById("hideAll").style.display = "block";
+        window.onload = function() { document.getElementById("hideAll").style.backgroundColor = "blue" }
+    </script>*@
+</div>
+</body>
+</html>
