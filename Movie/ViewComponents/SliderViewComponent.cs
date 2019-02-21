@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Movie.Models;
 
 namespace Movie.ViewComponents
 {
@@ -7,7 +8,9 @@ namespace Movie.ViewComponents
     {
         public async Task<IViewComponentResult> InvokeAsync()
         {
-           return View("Slider");
+           var getGenre = await GenericRestRequest<GetMovieList>.GetDataAsync(UrlPaths.ResourceManager.GetString("GetMovieList"));
+           var results = getGenre.Genres;
+           return View("Slider", results);
         }
     }
 }

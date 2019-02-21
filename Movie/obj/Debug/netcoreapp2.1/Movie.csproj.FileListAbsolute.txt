@@ -28,5 +28,6 @@ C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.csproj
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Components\Carousel\Carousel.g.cshtml.cs
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Navbar.g.cshtml.cs
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\TrainingPool.g.cshtml.cs
-C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.csprojAssemblyReference.cache
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Components\Slider\Slider.g.cshtml.cs
+C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Components\Upcoming\Upcoming.g.cshtml.cs
+C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.csprojAssemblyReference.cache

@@ -13,5 +13,6 @@ namespace Movie.Models
         public string Backdrop_path { get; set; }
         public string Overview { get; set; }
         public DateTime Release_date { get; set; }
+        public string Poster_path { get; set; }
     }
 }

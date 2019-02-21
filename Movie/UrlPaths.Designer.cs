@@ -61,11 +61,29 @@ namespace Movie {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/genre/movie/list?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL.
+        /// </summary>
+        public static string GetMovieList {
+            get {
+                return ResourceManager.GetString("GetMovieList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://api.themoviedb.org/3/movie/popular?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
         /// </summary>
         public static string GetPopular {
             get {
                 return ResourceManager.GetString("GetPopular", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/movie/upcoming?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
+        /// </summary>
+        public static string GetUpcoming {
+            get {
+                return ResourceManager.GetString("GetUpcoming", resourceCulture);
             }
         }
     }

@@ -3,31 +3,37 @@
     border-radius: 0;
     border-bottom: 1px solid #696969;
 }
+
 .navbar-brand {
     font-size: 40px;
 }
+
 .navbar-button {
     color: #ad0068;
     border-color: #ad0068;
 }
-.navbar-button:hover {
-    color: #d3d3d3;
-    background-color: #ad0068;
-}
+
+    .navbar-button:hover {
+        color: #d3d3d3;
+        background-color: #ad0068;
+    }
+
 .carousel-info-top {
     position: absolute;
     left: 5%;
-    top: 400px;
-    width: 50%;
+    top: 350px;
+    width: 40%;
     background: rgba(47, 47, 47, 0.4);
     color: white;
     border-left: rgba(171, 11, 92, 0.77) solid 10px;
     overflow: hidden;
     z-index: 2;
 }
+
 .carousel-inner-top {
     max-height: 600px;
 }
+
 .carousel-control-next-top {
     position: absolute;
     top: 0;
@@ -36,6 +42,7 @@
     height: 100%;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 1) 100%);
 }
+
 .carousel-control-prev-top {
     position: absolute;
     top: 0;
@@ -45,27 +52,20 @@
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 1) 100%);
 }
 
-h1 {
-    margin-top: 10px;
-}
-h2 {
-    margin: 20px;
-}
-p {
-    margin: 20px;
-}
-@media only screen and (max-width: 600px) {
-    .carousel-info {
-        top: 35%!important;
-    }
-}
 .carousel-inner-slider {
     max-height: 300px;
 }
+#carouselParagraph {
+    display: block;
+    padding: 0 20px 5px 20px;
+    font-size: 18px;
+}
+
 .slider-item {
     padding: 10px 80px;
     background-color: #292929;
 }
+
 .slider-image {
     position: absolute;
     top: 0;
@@ -78,15 +78,99 @@ p {
     -moz-transition: all 0.3s;
     padding: 5px 5px;
 }
+
 .carousel-control-slider {
     width: 5%;
 }
-.col-6 {
-    padding: 0 5px;
+
+#UpcomingZone {
+    background-color: #343a40;
+    padding: 40px;
 }
-.col-sm-3 {
-    padding: 5px 5px;
+
+#UpcomingZone-container {
+    background-color: #494c50;
+    margin: 0 40px;
+    padding: 10px;
 }
+
+#UpcomingZone-header {
+    margin-left: 2%;
+}
+
+#UpcomingZone-content {
+    padding: 10px 40px;
+}
+
+.upcomingZone-element {
+    border: black 2px solid;
+    padding: 10px 5px;
+}
+
+    .upcomingZone-element:hover .upcomingZone-credits {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .upcomingZone-element:hover .upcomingZone-details {
+        float: right;
+        position: relative;
+        top: 4px;
+        right: 5px;
+        display: unset;
+    }
+
+    .upcomingZone-element:hover .upcomingZone-title {
+        display: unset;
+    }
+
+.upcomingZone-credits {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    padding: 5px;
+    margin: 0 5px 10px 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.upcomingZone-details {
+    display: none;
+}
+
+.upcomingZone-title {
+    display: none;
+}
+
+body {
+    background-color: black;
+}
+
+.row {
+    margin: 0;
+}
+
+header {
+    display: inline-block;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+h3 {
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 2%;
+}
+
 h4 {
     color: #fff;
     position: absolute;
@@ -97,10 +181,34 @@ h4 {
     width: 100%;
     z-index: 22;
     text-shadow: 2px 2px 3px #000;
-    font-weight: 700;               
+    font-weight: 700;
 }
+
+
+
+.col-6 {
+    padding: 0 5px;
+}
+
+.col-sm-3 {
+    padding: 5px 5px;
+}
+
+
 @media only screen and (max-width: 576px) {
     h4 {
-        font-size: 8vw!important;
+        font-size: 8vw !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel-info-top {
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    #carouselParagraph {
+        display: none;
     }
 }

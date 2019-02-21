@@ -18,7 +18,7 @@
                     <img class="d-block w-100" src="https://image.tmdb.org/t/p/original/@m.Backdrop_path">
                     <div class="carousel-info carousel-info-top">
                         <h2>@m.Title</h2>
-                        <p>@(m.Overview.Length < 200 ? m.Overview : m.Overview.Substring(0, m.Overview.IndexOf('.', 100)))czytaj więcej </p>
+                        <p id="carouselParagraph">@(m.Overview.Length < 200 ? m.Overview : m.Overview.Substring(0, m.Overview.IndexOf('.', 100)))czytaj więcej </p>
                     </div>
                 </div>
              }

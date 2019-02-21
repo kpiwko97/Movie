@@ -1,11 +1,14 @@
-﻿<div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
+﻿@model List<Genres>
+<div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
     <div class="carousel-inner carousel-inner-slider">
         <div class="carousel-item active">
             <div class="row slider-item">
                 <div class="col-6 col-sm-3">
-                    <a class="slider-image" href="toAction" target="_blank"> </a>
-                    <img class="d-block w-100" src="https://image.tmdb.org/t/p/original/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg" alt="First slide">
-                    <h4>Akcja</h4>
+                    <a href="toAction" target="_blank">
+                        <div class="slider-image"></div>
+                        <img class="d-block w-100" src="https://image.tmdb.org/t/p/original/5A2bMlLfJrAfX9bqAibOL2gCruF.jpg" alt="First slide">
+                        <h4>Akcja</h4>
+                    </a>
                 </div>
                 <div class="col-6 col-sm-3">
                     <a class="slider-image" href="toAction" target="_blank"> </a>
