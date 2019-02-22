@@ -18,8 +18,13 @@ using Movie.Models;
 
 #line default
 #line hidden
+#line 2 "C:\Users\hp 840 g3\source\repos\Movie\Movie\_ViewImports.cshtml"
+using Movie.Models.RestModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a5e584adf4ee4466c5733a1a476d97751b338167", @"/Views/Home/Components/Slider/Slider.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a7acf5397d147fa065950c08ec5de280864566c", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3bcb674d5cc62978c9e71e55f89742a4e8790ac5", @"/_ViewImports.cshtml")]
     public class Views_Home_Components_Slider_Slider : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Genres>>
     {
         #pragma warning disable 1998

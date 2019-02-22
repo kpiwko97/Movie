@@ -12,8 +12,9 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
-        @RenderBody()
-    </div>
+<div>
+    @(await Html.PartialAsync("Navbar"))
+    @RenderBody()
+</div>
 </body>
 </html>

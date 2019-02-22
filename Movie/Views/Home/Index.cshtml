@@ -20,12 +20,10 @@
 <body>
 @*<div style="display: none" id="hideAll" >*@
 <div>
-    @(await Html.PartialAsync("Navbar"))
-    @(await Component.InvokeAsync("Carousel"))
+    @(await Component.InvokeAsync("Carousel", "GetPopular"))
     @*@(await Html.PartialAsync("TrainingPool"))*@
-    @(await Component.InvokeAsync("Slider"))
-    @(await Component.InvokeAsync("Zone","GetUpcoming"))
-    @(await Component.InvokeAsync("Zone","GetNowPlaying"))
+    @(await Component.InvokeAsync("Slider", "GetGenres"))
+    @(await Component.InvokeAsync("Zone","GetTopRated"))
 
     @*<script>
         document.getElementById("hideAll").style.display = "block";

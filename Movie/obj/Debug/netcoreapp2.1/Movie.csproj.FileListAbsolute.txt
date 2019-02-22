@@ -5,7 +5,6 @@ C:\Users\hp 840 g3\source\repos\Movie\Movie\bin\Debug\netcoreapp2.1\Movie.dll
 C:\Users\hp 840 g3\source\repos\Movie\Movie\bin\Debug\netcoreapp2.1\Movie.pdb
 C:\Users\hp 840 g3\source\repos\Movie\Movie\bin\Debug\netcoreapp2.1\Movie.Views.dll
 C:\Users\hp 840 g3\source\repos\Movie\Movie\bin\Debug\netcoreapp2.1\Movie.Views.pdb
-C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.UrlPaths.resources
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.csproj.GenerateResource.cache
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.csproj.CoreCompileInputs.cache
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.RazorAssemblyInfo.cache
@@ -29,5 +28,6 @@ C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Navbar.g.cshtml.cs
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\TrainingPool.g.cshtml.cs
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Components\Slider\Slider.g.cshtml.cs
-C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.csprojAssemblyReference.cache
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Components\Zone\Zone.g.cshtml.cs
+C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.MovieUrlRequests.resources
+C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.SeriesUrlRequest.resources

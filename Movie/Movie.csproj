@@ -12,17 +12,26 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="UrlPaths.Designer.cs">
+    <Compile Update="MovieUrlRequests.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>UrlPaths.resx</DependentUpon>
+      <DependentUpon>MovieUrlRequests.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SeriesUrlRequest.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SeriesUrlRequest.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="UrlPaths.resx">
+    <EmbeddedResource Update="MovieUrlRequests.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>UrlPaths.Designer.cs</LastGenOutput>
+      <LastGenOutput>MovieUrlRequests.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SeriesUrlRequest.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SeriesUrlRequest.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

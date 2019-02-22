@@ -13,12 +13,24 @@
     border-color: #ad0068;
 }
 
-    .navbar-button:hover {
+.navbar-button:hover {
         color: #d3d3d3;
         background-color: #ad0068;
+}
+    .navbar-button:focus {
+        color: #d3d3d3;
+        background-color: #8d0068;
+        outline: 5px auto #8d0068;
+        -webkit-outline: 5px auto #8d0068;
+        -moz-outline: 5px auto #8d0068;
+        -ms-outline: 5px auto #8d0068;
+        -o-outline: 5px auto #8d0068;
+        border: 1px solid #fff;
     }
-
-.carousel-info-top {
+.navbar-nav > li > a {
+    padding: 6px 12px;
+}
+    .carousel-info-top {
     position: absolute;
     left: 5%;
     top: 350px;
@@ -192,7 +204,6 @@ h4 {
     text-shadow: 2px 2px 3px #000;
     font-weight: 700;
 }
-
 
 
 .col-6 {

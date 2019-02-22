@@ -22,14 +22,14 @@ namespace Movie {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class UrlPaths {
+    public class SeriesUrlRequest {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal UrlPaths() {
+        internal SeriesUrlRequest() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Movie {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Movie.UrlPaths", typeof(UrlPaths).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Movie.SeriesUrlRequest", typeof(SeriesUrlRequest).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,25 +61,16 @@ namespace Movie {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://api.themoviedb.org/3/genre/movie/list?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL.
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/genre/tv/list?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL.
         /// </summary>
-        public static string GetMovieList {
+        public static string GetGenres {
             get {
-                return ResourceManager.GetString("GetMovieList", resourceCulture);
+                return ResourceManager.GetString("GetGenres", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://api.themoviedb.org/3/movie/now_playing?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
-        /// </summary>
-        public static string GetNowPlaying {
-            get {
-                return ResourceManager.GetString("GetNowPlaying", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://api.themoviedb.org/3/movie/popular?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/tv/popular?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
         /// </summary>
         public static string GetPopular {
             get {
@@ -88,11 +79,11 @@ namespace Movie {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://api.themoviedb.org/3/movie/upcoming?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/tv/top_rated?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
         /// </summary>
-        public static string GetUpcoming {
+        public static string GetTopRated {
             get {
-                return ResourceManager.GetString("GetUpcoming", resourceCulture);
+                return ResourceManager.GetString("GetTopRated", resourceCulture);
             }
         }
     }

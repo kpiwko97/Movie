@@ -18,8 +18,13 @@ using Movie.Models;
 
 #line default
 #line hidden
+#line 2 "C:\Users\hp 840 g3\source\repos\Movie\Movie\_ViewImports.cshtml"
+using Movie.Models.RestModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57218c316b6921e2cd61027a2387edc31a2d9471", @"/Views/Shared/TrainingPool.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a7acf5397d147fa065950c08ec5de280864566c", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3bcb674d5cc62978c9e71e55f89742a4e8790ac5", @"/_ViewImports.cshtml")]
     public class Views_Shared_TrainingPool : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
