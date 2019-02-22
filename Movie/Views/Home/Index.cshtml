@@ -24,7 +24,8 @@
     @(await Component.InvokeAsync("Carousel"))
     @*@(await Html.PartialAsync("TrainingPool"))*@
     @(await Component.InvokeAsync("Slider"))
-    @(await Component.InvokeAsync("Upcoming"))
+    @(await Component.InvokeAsync("Zone","GetUpcoming"))
+    @(await Component.InvokeAsync("Zone","GetNowPlaying"))
 
     @*<script>
         document.getElementById("hideAll").style.display = "block";

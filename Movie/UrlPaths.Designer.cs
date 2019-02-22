@@ -70,6 +70,15 @@ namespace Movie {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/movie/now_playing?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
+        /// </summary>
+        public static string GetNowPlaying {
+            get {
+                return ResourceManager.GetString("GetNowPlaying", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://api.themoviedb.org/3/movie/popular?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
         /// </summary>
         public static string GetPopular {
