@@ -26,8 +26,9 @@ C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.pdb
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.csproj.CopyComplete
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Components\Carousel\Carousel.g.cshtml.cs
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Navbar.g.cshtml.cs
-C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\TrainingPool.g.cshtml.cs
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Components\Slider\Slider.g.cshtml.cs
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Components\Zone\Zone.g.cshtml.cs
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.MovieUrlRequests.resources
 C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.SeriesUrlRequest.resources
+C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Movie.csprojAssemblyReference.cache
+C:\Users\hp 840 g3\source\repos\Movie\Movie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Training.g.cshtml.cs

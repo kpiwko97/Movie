@@ -95,6 +95,7 @@
     width: 5%;
 }
 
+
 #UpcomingZone {
     background-color: #343a40;
     padding: 40px;
@@ -104,6 +105,7 @@
     background-color: #494c50;
     margin: 0 40px;
     padding: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 #UpcomingZone-header {
@@ -195,10 +197,10 @@ h3 {
 h4 {
     color: #fff;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 0;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     width: 100%;
     z-index: 22;
     text-shadow: 2px 2px 3px #000;

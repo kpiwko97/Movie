@@ -123,6 +123,9 @@
   <data name="GetPopular" xml:space="preserve">
     <value>https://api.themoviedb.org/3/movie/popular?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1</value>
   </data>
+  <data name="GetSliderImages" xml:space="preserve">
+    <value>https://api.themoviedb.org/3/discover/movie?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;sort_by=vote_count.desc&amp;include_adult=false&amp;include_video=false&amp;page=1</value>
+  </data>
   <data name="GetTopRated" xml:space="preserve">
     <value>https://api.themoviedb.org/3/movie/top_rated?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1</value>
   </data>

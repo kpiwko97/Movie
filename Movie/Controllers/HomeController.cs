@@ -19,6 +19,11 @@ namespace Movie.Controllers
             _repository.SetResource(SeriesUrlRequest.ResourceManager);
             return View("Index");
         }
+
+        public ViewResult Training()
+        {
+            return View();
+        }
     }
 }
 

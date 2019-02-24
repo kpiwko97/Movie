@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            position: relative;
+            width: 600px;
+            height: 300px;
+            margin: 100px auto 0 auto;
+        }
+
+        .box-gradient {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            background: -moz-linear-gradient(left, #CCCCCC 0%, #EEEEEE 50%, #EEEEEE 50%, #CCCCCC 100%);
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%,#CCCCCC),color-stop(50%,#EEEEEE), color-stop(50%,#EEEEEE), color-stop(100%,#CCCCCC));
+        }
+
+        .box-shadow {
+            position: absolute;
+            left: 50%;
+            margin: 400px 0 0 -290px;
+            bottom: 10px;
+            width: 580px;
+            height: 16px;
+            background: #fff;
+            border-radius: 290px / 8px;
+            -moz-border-radius: 290px / 8px;
+            -webkit-border-radius: 290px / 8px;
+            box-shadow: 0 10px 20px #000;
+            -moz-box-shadow: 0 10px 20px #000;
+            -webkit-box-shadow: 0 10px 20px #000;
+        }
+    </style>
+    <title>CSS 3D Box Test</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="box">
+        <div class="box-shadow"></div>
+        <div class="box-gradient">
+            ...some content can go here...
+        </div>
+    </div>
+</body>
+</html>

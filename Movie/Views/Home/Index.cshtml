@@ -21,8 +21,7 @@
 @*<div style="display: none" id="hideAll" >*@
 <div>
     @(await Component.InvokeAsync("Carousel", "GetPopular"))
-    @*@(await Html.PartialAsync("TrainingPool"))*@
-    @(await Component.InvokeAsync("Slider", "GetGenres"))
+    @(await Component.InvokeAsync("Slider", new[]{"GetGenres", "GetSliderImages" }))
     @(await Component.InvokeAsync("Zone","GetTopRated"))
 
     @*<script>

@@ -79,6 +79,15 @@ namespace Movie {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/discover/movie?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;sort_by=vote_count.desc&amp;include_adult=false&amp;include_video=false&amp;page=1.
+        /// </summary>
+        public static string GetSliderImages {
+            get {
+                return ResourceManager.GetString("GetSliderImages", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://api.themoviedb.org/3/movie/top_rated?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1.
         /// </summary>
         public static string GetTopRated {

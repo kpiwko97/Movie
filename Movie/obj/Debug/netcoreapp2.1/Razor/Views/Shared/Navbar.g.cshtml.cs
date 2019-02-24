@@ -66,7 +66,7 @@ using Movie.Models.RestModels;
                 ");
             EndContext();
             BeginContext(568, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "840c5af8081448068b7104f56f0cce72", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "57ec990a6b834aeebe2c7d55ce4f9210", async() => {
                 BeginContext(649, 5, true);
                 WriteLiteral("Filmy");
                 EndContext();
@@ -91,7 +91,7 @@ using Movie.Models.RestModels;
             WriteLiteral("              \r\n            </li>\r\n            <li style=\"display: inline-block\" class=\"nav-item\">\r\n                ");
             EndContext();
             BeginContext(774, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b399a424cb041ab8b94872682c880d8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41f53fcb16734f3b8b693a97aac2976f", async() => {
                 BeginContext(856, 7, true);
                 WriteLiteral("Seriale");
                 EndContext();

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Movie.Models
+namespace Movie.Models.RestModels
 {
-    public class GetMovieList
+    public class GetGenres
     {
         public List<Genres> Genres { get; set; }
     }

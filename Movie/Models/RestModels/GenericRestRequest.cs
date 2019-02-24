@@ -10,7 +10,7 @@ using RestSharp;
 using RestSharp.Deserializers;
 using RestSharp.Extensions;
 
-namespace Movie.Models
+namespace Movie.Models.RestModels
 {
     public static class GenericRestRequest<T>
     {

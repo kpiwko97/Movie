@@ -10,7 +10,7 @@
     </ol>
         <div class="carousel-inner carousel-inner-top">
             <div class="carousel-item active">
-                <img class="w-100 " src="https://image.tmdb.org/t/p/original/@Model.Select(i => i.Backdrop_path).FirstOrDefault()">
+                <img class="w-100 " src="https://image.tmdb.org/t/p/original/@(Model.Select(i => i.Backdrop_path).FirstOrDefault())">
             </div>
             @foreach (var m in Model)
              {

@@ -123,6 +123,9 @@
   <data name="GetPopular" xml:space="preserve">
     <value>https://api.themoviedb.org/3/tv/popular?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1</value>
   </data>
+  <data name="GetSliderImages" xml:space="preserve">
+    <value>https://api.themoviedb.org/3/discover/tv?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;sort_by=popularity.desc&amp;page=4&amp;include_null_first_air_dates=false</value>
+  </data>
   <data name="GetTopRated" xml:space="preserve">
     <value>https://api.themoviedb.org/3/tv/top_rated?api_key=78f6c0e791ac39c0bef79d1065850c35&amp;language=pl-PL&amp;page=1</value>
   </data>
