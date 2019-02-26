@@ -8,7 +8,7 @@
                     @for (int i = genres; (genres%4!=0 || genres.Equals(0) || i==genres ) && ( genres<Model.Count() ); genres++)
                     {
                         <div class="col-6 col-sm-3">
-                            <a href="toAction" target="_blank">
+                            <a asp-action="ShowAll" asp-route-genreId="@Model[genres].Id" asp-route-type="@(ViewContext.RouteData.Values["action"])" asp-route-header="@Model[genres].Name" asp-route-page="1" target="_blank">
                                 <div class="slider-image"></div>
                                 <img class="d-block w-100" src="https://image.tmdb.org/t/p/w500_and_h282_face/@Model[genres].Image" alt="First slide">
                                 <h4>@Model[genres].Name</h4>

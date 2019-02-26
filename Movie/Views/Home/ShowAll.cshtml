@@ -1,0 +1,15 @@
+﻿@model UrlPathRequest
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/ShowAll.css" rel="stylesheet" />
+    <title>@ViewBag.Header</title>
+</head>
+<body>
+<div>
+    @*testowe generowanie adresow url*@
+    @(await Component.InvokeAsync("Zone", Model.GenerateUrl("pl-PL", 12, "/discover/movie" ))) @*tutaj bedzie logika ze to co przeslal klient *@
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿h3 {
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 2%;
+}
+#UpcomingZone {
+    background-color: #343a40;
+    padding: 40px;
+}
+
+#UpcomingZone-container {
+    background-color: #494c50;
+    margin: 0 40px;
+    padding: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#UpcomingZone-header {
+    margin-left: 2%;
+}
+#UpcomingZone-title {
+    border-bottom: solid 5px #ad0068;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 1.5vh;
+                   
+}
+#UpcomingZone-paragraph {
+
+}
+#UpcomingZone-content {
+    padding: 10px 40px;
+}
+
+.upcomingZone-element {
+    border: black 2px solid;
+    padding: 10px 5px;
+}
+
+.upcomingZone-element:hover .upcomingZone-credits {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0, rgba(0, 0, 0, 0) 100%);
+}
+
+.upcomingZone-element:hover .upcomingZone-details {
+    float: right;
+    position: relative;
+    top: 4px;
+    right: 5px;
+    display: unset;
+}
+
+.upcomingZone-element:hover .upcomingZone-title {
+    display: unset;
+}
+
+.upcomingZone-credits {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    padding: 5px;
+    margin: 0 5px 10px 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.upcomingZone-details {
+    display: none;
+}
+
+.upcomingZone-title {
+    display: none;
+}

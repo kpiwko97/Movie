@@ -1,43 +1,54 @@
 ﻿@using System.Globalization
 @model List<Results>
 @* TODO FrontEnd and mobile *@
+
 <div id="UpcomingZone">
     <div id="UpcomingZone-container">
         <div id="UpcomingZone-header">
             <header class="d-flex justify-content-between">
-                <h3 id="UpcomingZone-title">Nadchodzące    </h3>
+                <h3 id="UpcomingZone-title">@ViewBag.Header</h3>
                 <h3 id="UpcomingZone-paragraph">View All</h3>
             </header>
         </div>
         <div class="row" id="UpcomingZone-content">
-            @for (int i = 0; i < 6; i = i + 2)
+            @if (String.Equals(ViewContext.RouteData.Values["action"], "Movie") || String.Equals(ViewContext.RouteData.Values["action"], "Series"))
             {
-                <div class="col-4 col-lg-2 upcomingZone-element">
-                    <div style="padding: ">
-                        <img style="width: 100%" src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/@(Model[i].Poster_path)" />
-                        <div class="upcomingZone-credits">
-                            <div class="upcomingZone-details">
-                                <i class="far fa-star"></i>
-                                <label>@Model[i].Vote_average</label>
+                @*jezeli request przychodzi z movie albo Series to wyswietl tylko 6*@
+                for (int poster = 0; poster < 6; poster++)
+                {
+                    <div class="col-4 col-lg-2 @(poster % 2 == 0 ? "d-none d-lg-block" : "")  upcomingZone-element">
+                        <div style="padding: ">
+                            <img style="width: 100%" src="https://image.tmdb.org/t/p/w300_and_h450_besSeries2/@(Model[poster].Poster_path)" />
+                            <div class="upcomingZone-credits">
+                                <div class="upcomingZone-details">
+                                    <i class="far fa-star"></i>
+                                    <label>@Model[poster].Vote_average</label>
+                                </div>
+                                <a class="upcomingZone-title">@Model[poster].Release_date.ToString("d", CultureInfo.CreateSpecificCulture("pl-PL"))</a>
                             </div>
-                            <a class="upcomingZone-title">@Model[i].Release_date.ToString("d", CultureInfo.CreateSpecificCulture("pl-PL"))</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-4 col-lg-2 d-none d-lg-block upcomingZone-element">
-                    <div style="padding: ">
-                        <img style="width: 100%" src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/@(Model[i + 1].Poster_path)" />
-                        <div class="upcomingZone-credits">
-                            <div class="upcomingZone-details">
-                                <i class="far fa-star"></i>
-                                <label>@(Model[i + 1].Vote_average)</label>
-                            </div>
-                            <a class="upcomingZone-title">@Model[i + 1].Release_date.ToString("d", CultureInfo.CreateSpecificCulture("pl-PL"))</a>
-                        </div>
-                    </div>
-                </div>
+                }
             }
-
+            else
+            {
+                @*w przeciwnym razie wyswietlaj wszystko*@
+                foreach (var poster in Model)
+                {
+                    <div class="col-4 col-lg-2 upcomingZone-element">
+                        <div style="padding: ">
+                            <img style="width: 100%" src="https://image.tmdb.org/t/p/w300_and_h450_besSeries2/@(poster.Poster_path)" />
+                            <div class="upcomingZone-credits">
+                                <div class="upcomingZone-details">
+                                    <i class="far fa-star"></i>
+                                    <label>@poster.Vote_average</label>
+                                </div>
+                                <a class="upcomingZone-title">@poster.Release_date.ToString("d", CultureInfo.CreateSpecificCulture("pl-PL"))</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
         </div>
     </div>
 </div>

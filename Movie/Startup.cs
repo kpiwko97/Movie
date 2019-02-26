@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Movie.Models;
+using Movie.Models.RestModels;
 
 namespace Movie
 {
@@ -19,6 +20,7 @@ namespace Movie
         {
             services.AddMvc();
             services.AddSingleton<IResource,Resource>();
+            services.AddSingleton<UrlPathRequest>(); // na czas testow
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -28,10 +30,21 @@ namespace Movie
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-            app.UseMvc(route => route.MapRoute(
-                name: "deafault", 
-                template: "{controller}/{action}",
-                defaults: new {Controller = "Home", Action = "Movies"}));
+            app.UseMvc(route =>
+            {
+                route.MapRoute(
+                    name: null,
+                    template: "{type}/{header}/Strona{page}",
+                    defaults: new { Controller = "Home", Action = "ShowAll" });
+                route.MapRoute(
+                    name: null,
+                    template: "{action}",
+                    defaults: new { Controller = "Home", Action = "Movie" });
+                
+               
+                
+            });
+            
         }
     }
 }
