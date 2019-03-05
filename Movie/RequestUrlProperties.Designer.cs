@@ -77,5 +77,23 @@ namespace Movie {
                 return ResourceManager.GetString("baseUrl", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/configuration/languages?api_key=78f6c0e791ac39c0bef79d1065850c35.
+        /// </summary>
+        public static string GetGenreName {
+            get {
+                return ResourceManager.GetString("GetGenreName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://api.themoviedb.org/3/configuration/primary_translations?api_key=78f6c0e791ac39c0bef79d1065850c35.
+        /// </summary>
+        public static string GetTranslations {
+            get {
+                return ResourceManager.GetString("GetTranslations", resourceCulture);
+            }
+        }
     }
 }

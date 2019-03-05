@@ -7,12 +7,9 @@ namespace Movie.ViewComponents
 {
     public class CarouselViewComponent :ViewComponent
     {
-        private readonly IResource _resource;
-        public CarouselViewComponent(IResource resource) => _resource = resource;
-
         public async Task<IViewComponentResult> InvokeAsync(string request)
         {
-            var getImage = await GenericRestRequest<GetPopular>.GetDataAsync(_resource.GetResource.GetString(request));
+            var getImage = await GenericRestRequest<GetPopular>.GetDataAsync(request);
             var results = getImage.Results;
             return View("Carousel",results);
         }

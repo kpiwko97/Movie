@@ -1,8 +1,6 @@
 ﻿body {
     background-color: black;
 }
-
-
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -16,6 +14,15 @@
 .navbar-button {
     color: #ad0068;
     border-color: #ad0068;
+}
+.navbar-button-language {
+    color: #ad0068;
+    border-color: #ad0068;
+    display: list-item;
+}
+.navbar-button-language:hover {
+    color: #000;
+    background-color: #fff;
 }
 
 .navbar-button:hover {

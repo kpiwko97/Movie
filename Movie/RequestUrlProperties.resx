@@ -123,4 +123,10 @@
   <data name="baseUrl" xml:space="preserve">
     <value>https://api.themoviedb.org/3/discover/</value>
   </data>
+  <data name="GetTranslations" xml:space="preserve">
+    <value>https://api.themoviedb.org/3/configuration/primary_translations?api_key=78f6c0e791ac39c0bef79d1065850c35</value>
+  </data>
+  <data name="GetGenreName" xml:space="preserve">
+    <value>https://api.themoviedb.org/3/configuration/languages?api_key=78f6c0e791ac39c0bef79d1065850c35</value>
+  </data>
 </root>

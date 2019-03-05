@@ -19,7 +19,6 @@ namespace Movie
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddSingleton<IResource,Resource>();
             services.AddSingleton<UrlPathRequest>(); // na czas testow
         }
 
@@ -34,7 +33,7 @@ namespace Movie
             {
                 route.MapRoute(
                     name: null,
-                    template: "{type}/{header}/Strona{page}",
+                    template: "{type}/{header}/{page}/{genreId}",
                     defaults: new { Controller = "Home", Action = "ShowAll" });
                 route.MapRoute(
                     name: null,

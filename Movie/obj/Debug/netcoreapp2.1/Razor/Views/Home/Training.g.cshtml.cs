@@ -24,7 +24,7 @@ using Movie.Models.RestModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4a4de4bc72da9262d5329be456748c38ef57deb4", @"/Views/Home/Training.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3bcb674d5cc62978c9e71e55f89742a4e8790ac5", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"23a5aacfe01dad0b9407338dd14e91d5f7973b7d", @"/_ViewImports.cshtml")]
     public class Views_Home_Training : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -54,7 +54,7 @@ using Movie.Models.RestModels;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 1334, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c6748875f874ced9240586e21992ad8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7d668f888e043458c68aaf792e40ded", async() => {
                 BeginContext(31, 1321, true);
                 WriteLiteral(@"
     <style>
@@ -113,7 +113,7 @@ using Movie.Models.RestModels;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(1363, 186, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "39a1278d6e0c46a68101e5904172db20", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e28270332cc848e1b8e066dd60e45ff5", async() => {
                 BeginContext(1369, 173, true);
                 WriteLiteral("\r\n    <div class=\"box\">\r\n        <div class=\"box-shadow\"></div>\r\n        <div class=\"box-gradient\">\r\n            ...some content can go here...\r\n        </div>\r\n    </div>\r\n");
                 EndContext();

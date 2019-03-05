@@ -24,7 +24,7 @@ using Movie.Models.RestModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"05c1f9542a8b929bc85801724de7c196339f5d1c", @"/Views/Home/Components/Carousel/Carousel.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3bcb674d5cc62978c9e71e55f89742a4e8790ac5", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"23a5aacfe01dad0b9407338dd14e91d5f7973b7d", @"/_ViewImports.cshtml")]
     public class Views_Home_Components_Carousel_Carousel : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Results>>
     {
         #pragma warning disable 1998

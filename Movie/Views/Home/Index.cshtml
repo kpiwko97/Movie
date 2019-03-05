@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model UrlPathRequest
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -21,9 +22,9 @@
 <body>
 @*<div style="display: none" id="hideAll" >*@
 <div>
-    @(await Component.InvokeAsync("Carousel", "GetPopular"))
-    @(await Component.InvokeAsync("Slider", new[]{"GetGenres", "GetSliderImages" }))
-    @(await Component.InvokeAsync("Zone","GetTopRated"))
+    @(await Component.InvokeAsync("Carousel", Model.ReturnUrlPathWithParameters( new Dictionary<string, string>{["sort_by"] = "popularity.desc" })))
+    @(await Component.InvokeAsync("Slider", new[]{Model.ReturnGenreUrlPath(), Model.ReturnUrlPathWithParameters(new Dictionary<string, string> { ["sort_by"] = "popularity.desc" , ["page"] = "4" })}))
+    @(await Component.InvokeAsync("Zone", Model.ReturnUrlPathWithParameters(new Dictionary<string, string> { ["sort_by"] = "popularity.desc" })))
 
     @*<script>
         document.getElementById("hideAll").style.display = "block";
