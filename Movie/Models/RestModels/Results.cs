@@ -20,11 +20,12 @@ namespace Movie.Models.RestModels
         {
             get => Release_date;
             set => Release_date = value;
-        }
+        } 
         
         public float Vote_average { get; set; }
         public string Backdrop_path { get; set; }
         public string Poster_path { get; set; }
         public string Overview { get; set; }
+        public int TotalPages { get; set; }
     }
 }

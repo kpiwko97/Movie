@@ -57,7 +57,7 @@ using Movie.Models.RestModels;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(50, 426, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "32c08ce200254c4d927335b75411042f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc6908ffebd4437faad0f27585a8c36a", async() => {
                 BeginContext(56, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();
@@ -65,7 +65,7 @@ using Movie.Models.RestModels;
                 WriteLiteral("   \r\n    ");
                 EndContext();
                 BeginContext(395, 47, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9f90e955a6634f7598008b210ca3ee17", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d858f0d069aa42ed86ea4a919dc88168", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -99,7 +99,7 @@ using Movie.Models.RestModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(478, 785, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "55ad6e39c84a430f89ab20e05386dd99", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c8318d3f427a4bcc8485c042d909cf37", async() => {
                 BeginContext(484, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();

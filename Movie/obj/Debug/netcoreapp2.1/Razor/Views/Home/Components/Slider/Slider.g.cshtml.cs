@@ -85,7 +85,7 @@ WriteAttributeValue(" ", 283, genres.Equals(0) ? "active" : "", 284, 35, false);
             WriteLiteral("                        <div class=\"col-6 col-sm-3\">\r\n                            ");
             EndContext();
             BeginContext(605, 509, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "519ae9678bc34dc6bf6719e75ce46235", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f2f172b8269b45c6811106c0132148ff", async() => {
                 BeginContext(800, 126, true);
                 WriteLiteral("\r\n                                <div class=\"slider-image\"></div>\r\n                                <img class=\"d-block w-100\"");
                 EndContext();

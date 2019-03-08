@@ -20,8 +20,8 @@ namespace Movie.Models.RestModels
             var request = new RestRequest(Method.GET);
             request.AddParameter("undefined", "{}", ParameterType.RequestBody);
             var response = await client.ExecuteTaskAsync<T>(request);
-            var result = JsonConvert.DeserializeObject<T>(response.Content);
+            var result = JsonConvert.DeserializeObject<T>(response.Content,new JsonSerializerSettings(){NullValueHandling = NullValueHandling.Ignore,MissingMemberHandling = MissingMemberHandling.Ignore});
             return result;
-        }      
+        }
     }
 }

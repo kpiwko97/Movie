@@ -13,6 +13,7 @@ namespace Movie.ViewComponents
         {
             var getTopRated = await GenericRestRequest<GetTopRated>.GetDataAsync(request); // UrlRequest Domyslnie z pliku Resx ale jak pusty to bezposrednio ze stringa (zmienic plik resx na liste?)
             var results = getTopRated.Results;
+            ViewBag.TotalPages = getTopRated.TotalPages;
             return View("Zone", results);
         }  
     }

@@ -7,12 +7,11 @@
 }
 #UpcomingZone {
     background-color: #343a40;
-    padding: 40px;
+    padding: 4%;
 }
 
 #UpcomingZone-container {
     background-color: #494c50;
-    margin: 0 40px;
     padding: 10px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -31,7 +30,7 @@
 
 }
 #UpcomingZone-content {
-    padding: 10px 40px;
+    padding: 10px 4%;
 }
 
 .upcomingZone-element {
@@ -74,3 +73,135 @@
 .upcomingZone-title {
     display: none;
 }
+
+.bestSnippArea1059,
+.bestSnippArea1059 * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bestSnippArea1059 {
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 2%;
+}
+
+    .bestSnippArea1059 .bsBox {
+        width: 98%;
+        margin: 0 1%;
+        float: left;
+        display: inline-block;
+    }
+
+
+
+        .bestSnippArea1059 .bsBox.pagination {
+            height: 64px;
+            border-radius: 32px;
+            overflow: hidden;
+            display: block;
+            background-color: #fff;
+            box-shadow: 0 6px 30px rgba(0,0,0,.12);
+        }
+
+        .bestSnippArea1059 .bsBox .nav-links {
+            font-weight: 600;
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            padding: 0 52px;
+        }
+
+        .bestSnippArea1059 .bsBox .page-numbers {
+            font-size: 14px;
+            line-height: 64px;
+            padding: 0 15px;
+            position: relative;
+            display: block;
+            text-align: center;
+            -webkit-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            color: black;
+            text-decoration: none;
+        }
+
+        .bestSnippArea1059 .bsBox i.fa {
+            font-family: "FontAwesome";
+            font-weight: normal;
+        }
+
+        .bestSnippArea1059 .bsBox .page-numbers.current,
+        .bestSnippArea1059 .bsBox .page-numbers:not(.dots):hover,
+        .bestSnippArea1059 .bsBox .page-numbers.next:hover:before,
+        .bestSnippArea1059 .bsBox .page-numbers.prev:hover:before {
+            color: #ad0068;
+        }
+
+            .bestSnippArea1059 .bsBox .page-numbers.current:after,
+            .bestSnippArea1059 .bsBox .page-numbers:not(.dots):hover:after {
+                height: 3px;
+            }
+
+        .bestSnippArea1059 .bsBox .page-numbers.next:hover:after,
+        .bestSnippArea1059 .bsBox .page-numbers.prev:hover:after {
+            height: 0px;
+        }
+
+        .bestSnippArea1059 .bsBox .page-numbers:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 0;
+            width: 100%;
+            -webkit-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            background-color: #ad0068;
+        }
+
+        .bestSnippArea1059 .bsBox .page-numbers.dots {
+            padding: 0;
+        }
+
+        .bestSnippArea1059 .bsBox .page-numbers.next,
+        .bestSnippArea1059 .bsBox .page-numbers.prev {
+            position: absolute;
+            top: 7px;
+            font-size: 18px;
+            line-height: 45px;
+            width: 50px;
+            height: 50px;
+            padding: 0;
+            border-radius: 50%;
+            font-family: "Font Awesome 5 Free";
+            border: 2px solid rgba(39,39,39,.06);
+        }
+
+        .bestSnippArea1059 .bsBox .page-numbers.prev {
+            left: 6px;
+        }
+
+        .bestSnippArea1059 .bsBox .page-numbers.next {
+            right: 6px;
+        }
+
+            .bestSnippArea1059 .bsBox .page-numbers.next:before,
+            .bestSnippArea1059 .bsBox .page-numbers.prev:before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+                font-size: 14px;
+                -webkit-transition: all .3s ease-in-out;
+                transition: all .3s ease-in-out;
+                color: #333;
+            }

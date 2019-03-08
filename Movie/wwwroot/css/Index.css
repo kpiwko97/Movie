@@ -67,12 +67,11 @@
 
 #UpcomingZone {
     background-color: #343a40;
-    padding: 40px;
+    padding: 4%;
 }
 
 #UpcomingZone-container {
     background-color: #494c50;
-    margin: 0 40px;
     padding: 10px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -91,7 +90,7 @@
 
 }
 #UpcomingZone-content {
-    padding: 10px 40px;
+    padding: 10px 4%;
 }
 
 .upcomingZone-element {

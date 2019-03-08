@@ -68,7 +68,7 @@ using Movie.Models.RestModels;
                 ");
             EndContext();
             BeginContext(595, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dd1da128b0cc42969fb913addc252b79", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "465050183e3b4ea68c8c5c91cc5c9bbe", async() => {
                 BeginContext(675, 5, true);
                 WriteLiteral("Filmy");
                 EndContext();
@@ -93,7 +93,7 @@ using Movie.Models.RestModels;
             WriteLiteral("              \r\n            </li>\r\n            <li style=\"display: inline-block\" class=\"nav-item\">\r\n                ");
             EndContext();
             BeginContext(800, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e3c2635372f4df7a17967b4abd28237", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf7a49aa31fd4bb7b05f71bbae0c195e", async() => {
                 BeginContext(878, 7, true);
                 WriteLiteral("Seriale");
                 EndContext();
@@ -129,7 +129,7 @@ using Movie.Models.RestModels;
                             ");
             EndContext();
             BeginContext(1514, 39, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("LanguageTagHelper", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "663b66c6aa5b457b9361e3d29be885c9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("LanguageTagHelper", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f068e3bbb8214d96ac5864451936c46f", async() => {
             }
             );
             __Movie_Infrastructure_TagHelpers_LanguageTagHelper = CreateTagHelper<global::Movie.Infrastructure.TagHelpers.LanguageTagHelper>();
@@ -146,7 +146,7 @@ using Movie.Models.RestModels;
             WriteLiteral("\r\n                        </div>\r\n                    </div>\r\n                </li>\r\n                <li style=\"display: inline-block\" class=\"nav-item\">\r\n                    ");
             EndContext();
             BeginContext(1727, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17dc83b240d243f08aa01a1ef911e493", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c39bb713a54444f78731964c04112810", async() => {
                 BeginContext(1807, 5, true);
                 WriteLiteral("Login");
                 EndContext();

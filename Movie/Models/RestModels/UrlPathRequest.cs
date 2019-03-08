@@ -37,6 +37,5 @@ namespace Movie.Models.RestModels
         {
             Page = page;
         }
-
     }
 }

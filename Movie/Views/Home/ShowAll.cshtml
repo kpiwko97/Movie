@@ -1,15 +1,17 @@
-﻿@model UrlPathRequest
-
+﻿
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="~/css/ShowAll.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="~/css/ShowAll.css" rel="stylesheet"/>
     <title>@ViewBag.Header</title>
 </head>
 <body>
 <div>
-    @(await Component.InvokeAsync("Zone", Model.ReturnUrlPath())) 
-    @* TagHelper Generujacy wyswietleie strzalki w prawo w lewo a ponizej indexowany pagination gdzie zaczyna sie od 0 ... 17 18 19... 911
+    @(await Component.InvokeAsync("Zone", Model.ReturnUrlPath()))
+
+    
+    @* TagHelper Generujacy wyswietleie strzalki w prawo w lewo a ponizej indexowany pagination gdzie zaczyna sie od 1 ... 17 18 19... 911
         Potrzebne: info o wszystkich stronach,
         aktualnej stronie
 
