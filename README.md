@@ -13,3 +13,5 @@ Platform: AspNet Core 2.1 JS HTML CSS Bootstrap
 - LINQ
 - Generics
 - TagHelpers
+
+![movieTinder](https://user-images.githubusercontent.com/38471368/57526618-23556680-732e-11e9-823e-01cba5703dd0.png)
