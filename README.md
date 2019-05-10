@@ -17,3 +17,4 @@ Platform: AspNet Core 2.1 JS HTML CSS Bootstrap
 - Generics
 - TagHelpers
 
+Not all code upload (commercial use)
