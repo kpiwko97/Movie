@@ -1,3 +1,6 @@
+
+![movieTinder](https://user-images.githubusercontent.com/38471368/57526618-23556680-732e-11e9-823e-01cba5703dd0.png)
+
 # Movie Tinder
 
 Movie Tinder is a movie search web app, most often used as a book cinema tickets with friends,
@@ -14,4 +17,3 @@ Platform: AspNet Core 2.1 JS HTML CSS Bootstrap
 - Generics
 - TagHelpers
 
-![movieTinder](https://user-images.githubusercontent.com/38471368/57526618-23556680-732e-11e9-823e-01cba5703dd0.png)
